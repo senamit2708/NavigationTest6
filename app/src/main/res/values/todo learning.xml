@@ -1,2 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+
+   todo 1:  setHasOptionsMenu(true)
+    whats the uses of this function in the fragment, and where to write this code in fragment
+   ** -- http://droidmentor.com/how-to-use-fragment-specific-menu-in-android/
+    https://stackoverflow.com/questions/8308695/android-options-menu-in-fragment
+    http://chalup.github.io/blog/2014/09/28/sethasoptionsmenu-gotcha/
+    its used to inflate option menu through fragment, if u want to add some additional item to the menu
+    item then use it in fragment, it specifically add the extra menu item only for that fragment.
+    In the above webpage its explained well.
+
+
+</resources>
