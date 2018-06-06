@@ -23,6 +23,12 @@ class SecondFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         view.findViewById<Button>(R.id.btn_second_fragment)?.setOnClickListener(
                 Navigation.createNavigateOnClickListener(R.id.action_secondFragment_to_thirdFragment, null))
+
+        view.findViewById<Button>(R.id.btnSecondFragmenttwo).setOnClickListener(
+                Navigation.createNavigateOnClickListener(R.id.action_secondFragment_to_fourthFragment, null))
+
+
+
     }
 
 
